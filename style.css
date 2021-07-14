@@ -56,13 +56,13 @@ input{
 textarea:focus, input:focus{
     transition: 0.25s;
     outline: none;
-    border-color: #071e92;
+    border-color: #155a9f;
 }
 #sign-in-btn{
     height: 50px;
     width: 100px;
     border-width: 0;
-    background-color: #071e92;
+    background-color: #155a9f;
     border-radius: 5px;
     color: white;
     display: flex;

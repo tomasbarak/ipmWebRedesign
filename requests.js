@@ -22,6 +22,6 @@ xhr.onreadystatechange=(e)=>{
     let validCredential = xhr.responseText.includes('form.action = "pad000pre.asp"');
 
     if(validCredential){
-
+        window.location = 'authSuccess.html';
     }
 }
